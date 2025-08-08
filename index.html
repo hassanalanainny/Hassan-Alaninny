@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق حسن</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 أهلاً بك في منصة حسن</h1>
+        <nav>
+            <a href="#">الرئيسية</a>
+            <a href="#">أفلام</a>
+            <a href="#">مسلسلات</a>
+            <a href="#">المساعد الذكي</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured">
+            <h2>العرض المميز</h2>
+            <video controls>
+                <source src="sample.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </section>
+
+        <section class="assistant">
+            <h2>🤖 المساعد حسن AI</h2>
+            <div id="chat-box"></div>
+            <input type="text" id="user-input" placeholder="اكتب رسالتك هنا...">
+            <button onclick="sendMessage()">إرسال</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2025 حسن</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

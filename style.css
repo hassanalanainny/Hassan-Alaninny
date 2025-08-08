@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.featured video {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.assistant {
+    margin-top: 30px;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#chat-box {
+    background: black;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
